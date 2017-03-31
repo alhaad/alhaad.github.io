@@ -3,6 +3,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alhaad
 
+google_analytics: UA-71823202-1
+disqus:
+  shortname: alhaad
+
 # Build settings
 markdown: kramdown
 theme: minima
