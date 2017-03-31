@@ -7,6 +7,8 @@ google_analytics: UA-71823202-1
 disqus:
   shortname: alhaad
 
+visited_countries: [India, United States, Sri Lanka, Singapore, Malaysia, Switzerland, Mexico, France, Italy, Spain, Iceland]
+
 # Build settings
 markdown: kramdown
 theme: minima
