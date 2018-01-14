@@ -2,6 +2,7 @@ title: Alhaad Gokhale
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alhaad
+github: [metadata]
 
 google_analytics: UA-71823202-1
 disqus:
@@ -12,7 +13,7 @@ visited_countries: [India, United States, Sri Lanka, Singapore, Malaysia, Switze
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
