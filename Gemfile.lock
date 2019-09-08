@@ -245,6 +245,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed
   jekyll-redirect-from
+  jekyll-seo-tag
   minima
   tzinfo-data
 

@@ -1,11 +1,14 @@
 title: Alhaad Gokhale
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-description: All rights reserved.
+url: "https://alhaad.github.io/"
+description: Personal website
 
 # Social media in footer.
 github_username:  alhaad
 linkedin_username: alhaad-gokhale-0404ab84
+
+webmaster_verifications:
+  google: fdkFIYLVzpNTJhFNNBWL2tx2_X_SBt_Acp58bDzuDHo
 
 google_analytics: UA-71823202-1
 disqus:
@@ -18,6 +21,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
