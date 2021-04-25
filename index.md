@@ -6,9 +6,9 @@ Hi! My name is Alhaad Gokhale.
 
 ![photo](/assets/photo.jpg){:height="25%" width="25%" align="center"}
 
-I work as a software engineer at Google. I'm currently based out of Bangalore,
-India and working on Google Search.
-Previously, I lived in the bay area and have worked on
+I am a *Staff Software Engineer / Tech Lead Manager*  at Google. I'm currently
+based out of Bangalore, India and working on Google Search. Previously, I
+lived in the Bay Area and have worked on
 [Fuchsia](https://en.wikipedia.org/wiki/Google_Fuchsia) and Google Search
 Infrastructure.
 
