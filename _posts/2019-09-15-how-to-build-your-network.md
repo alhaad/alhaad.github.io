@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to build your network."
+title: "How to build your network"
 ---
 
 Notes based on my reading of
