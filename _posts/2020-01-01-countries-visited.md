@@ -1,14 +1,10 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
+---
+layout: post
+title: "Countries visited"
+---
 
+<html>
+<head>
   <!-- Scripts for GeoCharts. Copied from https://developers.google.com/chart/interactive/docs/gallery/geochart -->
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
@@ -19,8 +15,25 @@
       
       var data = google.visualization.arrayToDataTable([
         ['Country'],
-        {% for visited_country in site.visited_countries %}['{{ visited_country }}'],
-        {% endfor %}
+        ['India'],
+        ['United States'],
+        ['Sri Lanka'],
+        ['Singapore'],
+        ['Malaysia'],
+        ['Switzerland'],
+        ['Mexico'],
+        ['France'],
+        ['Italy'],
+        ['Spain'],
+        ['Iceland'],
+        ['Austria'],
+        ['Germany'],
+        ['Czech Republic'],
+        ['Israel'],
+        ['United Kingdom'],
+        ['Turkey'],
+        ['Maldives'],
+        ['Portugal'],
       ]);
       
       var options = {
@@ -33,5 +46,8 @@
       chart.draw(data, options);
     }
   </script>
-
 </head>
+<body>
+    <div id="regions_div" style="width: 100%;"></div>
+</body>
+</html>

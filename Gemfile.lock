@@ -23,6 +23,7 @@ GEM
     commonmarker (0.23.10)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
+    csv (3.3.0)
     dnsruby (1.72.1)
       simpleidn (~> 0.2.1)
     drb (2.2.1)
@@ -226,6 +227,8 @@ GEM
     nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.16.5-x86_64-darwin)
+      racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
@@ -259,22 +262,25 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     uri (0.13.0)
+    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
   ruby
+  x86_64-darwin-23
 
 DEPENDENCIES
+  csv (~> 3.3)
   github-pages
-  jekyll-feed
+  http_parser.rb (~> 0.6.0)
+  jekyll-feed (~> 0.6)
   jekyll-redirect-from
-  jekyll-seo-tag
-  jekyll-sitemap
-  minima
-  webrick (~> 1.7)
-
-RUBY VERSION
-   ruby 3.3.1p55
+  kramdown-parser-gfm
+  minima (~> 2.5)
+  tzinfo (>= 1, < 3)
+  tzinfo-data
+  wdm (~> 0.1.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
-   2.2.32
+   2.5.10

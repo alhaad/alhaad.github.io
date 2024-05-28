@@ -1,21 +1,23 @@
 title: Alhaad Gokhale
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://alhaad.github.io/"
-description: Personal website
+url: "https://alhaad.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+author: null
+email: null
 
 # Social media in footer.
+twitter_username: alhaadgokhale
 github_username:  alhaad
 linkedin_username: alhaad-gokhale-0404ab84
-twitter_username: alhaadgokhale
 
-webmaster_verifications:
-  google: R2xG61UNUMFgK1oU5BXboz-fj2B4bjoNtYeFNBkSTzM
-
+# Enable Google Analytics
 google_analytics: UA-71823202-1
+
+# Enabling comments (via disqus)
 disqus:
   shortname: alhaad
-
-visited_countries: [India, United States, Sri Lanka, Singapore, Malaysia, Switzerland, Mexico, France, Italy, Spain, Iceland, Austria, Germany, Czech Republic, Israel, United Kingdom, Turkey, Maldives, Portugal]
 
 # Build settings
 markdown: kramdown
@@ -23,9 +25,15 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
-  - vendor
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
