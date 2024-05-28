@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: false
 ---
 I work at Google. I lead a team working on Local & Travel verticals on Google.com. Think of queries like [restaurants near me] or [hotels in Goa].
 
