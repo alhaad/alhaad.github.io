@@ -12,8 +12,3 @@ I studied Computer Science and Engineering at
 [IIT Kharagpur](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Kharagpur) and have 10+ years of experience.
 
 ![photo](/assets/photo.jpg){:height="25%" width="25%" align="center"}
-
-## Facts
-
-* I have a *probably* unique full name.
-* My [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is [4](https://www.csauthors.net/distance/alhaad-gokhale/paul-erdos).
