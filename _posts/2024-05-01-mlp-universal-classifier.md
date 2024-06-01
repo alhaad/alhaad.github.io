@@ -3,8 +3,6 @@ layout: post
 title: "Multi-layer perceptron (MLP) is a universal classifier"
 tag: MLP universal classifier
 ---
-# Multi-layer perceptron (MLP) is a universal classifier
-
 Notes from CMU 11-785. Lecture #1
 
 ## Perceptron is a linear classifier
