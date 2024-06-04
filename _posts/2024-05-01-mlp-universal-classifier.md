@@ -2,7 +2,15 @@
 layout: post
 title: "Multi-layer perceptron (MLP) is a universal classifier"
 tag: MLP universal classifier
+usemathjax: true
 ---
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+<script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 Notes from CMU 11-785. Lecture #1
 
 ## Perceptron is a linear classifier
