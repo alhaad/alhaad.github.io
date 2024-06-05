@@ -2,7 +2,6 @@
 layout: post
 title: "Multi-layer perceptron (MLP) is a universal classifier"
 tag: MLP universal classifier
-usemathjax: true
 ---
 
 <html>
@@ -15,6 +14,7 @@ usemathjax: true
     <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   </script>
 </head>
+<body>
 
 Notes from CMU 11-785. Lecture #1
 
@@ -77,5 +77,5 @@ Input Layer:       First Layer (Bounding Box):          Second Layer (AND):
 (x1, x2)  ---->  [Perceptron 4: y ≤ 1.5]  ----------->
 ```
 A universal classifier can then be a tree of such linear classifers + AND layers and could be used to model any classification problem with arbitary precision.
-
+</body>
 </html>
