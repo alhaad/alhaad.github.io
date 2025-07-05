@@ -34,6 +34,7 @@ title: "Countries visited"
         ['Turkey'],
         ['Maldives'],
         ['Portugal'],
+        ['Thailand'],
       ]);
       
       var options = {
